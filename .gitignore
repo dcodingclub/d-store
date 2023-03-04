@@ -58,6 +58,7 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+dev.py
 db.sqlite3
 db.sqlite3-journal
 
@@ -104,10 +105,13 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.dstore
 env/
 venv/
+dstore/
 ENV/
 env.bak/
+dstore.bak/
 venv.bak/
 
 # Spyder project settings
